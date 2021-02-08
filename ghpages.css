@@ -1,3 +1,34 @@
+header {
+    display: flex;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 36pt;
+    justify-content: space-between;
+}
+  
+#title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
 body {
     background-color: lightgray;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.subheading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#bullet_points {
+    display: flex;
+    align-items: center;
 }
